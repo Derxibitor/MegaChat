@@ -1,0 +1,45 @@
+/* Форма смены фото */
+.form  {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 400px;
+  height: 300px;
+  border-radius: 25px;
+  background-color: rgb(236, 173, 79);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.cross  {
+  position: absolute;
+  right: 5px;
+  top: 20px;
+  width: 40px;
+  height: 40px;
+  rotate: 45deg;
+}
+
+.form--send  {
+  display: flex;
+  align-items: center;
+  position: absolute;
+  left: 360px;
+  top: 95%;
+  width: 70vw;
+}
+
+/* Форма отправки сообщения */
+
+.input__send {
+  width: 69vw;
+  margin-right: 5px;
+  resize: none;
+}
+
+.send__btn {
+  width: 110px;
+}

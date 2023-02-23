@@ -1,0 +1,36 @@
+.user__icon {
+  width: 80px;
+  height: 80px;
+  border: 50%;
+  margin-right: 15px;
+}
+
+.user__data {
+  position: relative;
+  display: flex;
+  align-items: center;
+  top: 30px;
+  left: 30px;
+}
+
+.user__list  {
+  padding-right: 150px;
+  margin-left: -180px;
+  padding-top: 187px;
+  font-size: 25px;
+}
+
+.user__list-title {
+  text-align: center;
+  font-size: 24px;
+  padding-top: 135px;
+}
+
+.user__icon--chat {
+  height: 60px;
+  width: 60px;
+}
+
+.user__data--profile  {
+  position: absolute;
+}
